@@ -1,0 +1,45 @@
+{
+  "name": "mvp-interview-mocker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "react-dev": "webpack --watch",
+    "start": "nodemon server/index.js",
+    "db": "node db/index.js",
+    "seed": "node db/seed.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.25.0",
+    "body-parser": "^1.19.1",
+    "canvas": "^2.9.0",
+    "dotenv": "^14.3.0",
+    "express": "^4.17.2",
+    "face-api.js": "^0.22.2",
+    "microsoft-cognitiveservices-speech-sdk": "^1.19.0",
+    "mongoose": "^6.1.8",
+    "react": "^17.0.2",
+    "react-bootstrap": "^2.1.1",
+    "react-dom": "^17.0.2",
+    "react-webcam": "^6.0.0",
+    "reactstrap": "^9.0.1",
+    "universal-cookie": "^4.0.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.12",
+    "@babel/plugin-transform-regenerator": "^7.16.7",
+    "@babel/plugin-transform-runtime": "^7.16.10",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.2.3",
+    "express-pino-logger": "^7.0.0",
+    "html-loader": "^3.1.0",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.67.0",
+    "webpack-cli": "^4.9.2"
+  }
+}

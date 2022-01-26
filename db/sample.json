@@ -1,0 +1,226 @@
+[
+  {
+    "content": "What is ‘Version Control System’?",
+    "type": "Git"
+  },
+  {
+    "content": "Differentiate Between Centralized and Distributed Version Control System",
+    "type": "Git"
+  },
+  {
+    "content": "Explain Git Push and Git Pull",
+    "type": "Git"
+  },
+  {
+    "content": "Name a few Git Commands and function",
+    "type": "Git"
+  },
+  {
+    "content": "Explain the Difference Between Git Pull and Git Fetch",
+    "type": "Git"
+  },
+  {
+    "content": "What is a Merge Conflict in Git and how can it be resolved?",
+    "type": "Git"
+  },
+  {
+    "content": "What is Git Stash?",
+    "type": "Git"
+  },
+  {
+    "content": "Differentiate Between Git Merge and Git Rebase",
+    "type": "Git"
+  },
+  {
+    "content": "What Is an Attribute in HTML?",
+    "type": "HTML"
+  },
+  {
+    "content": "What is Marquee in HTML?",
+    "type": "HTML"
+  },
+  {
+    "content": "What is Semantic HTML? and how does it work?",
+    "type": "HTML"
+  },
+  {
+    "content": "How do you Display a Table on an HTML Webpage?",
+    "type": "HTML"
+  },
+  {
+    "content": "What is SVG in HTML?",
+    "type": "HTML"
+  },
+  {
+    "content": "In HTML, how do you separate a section of text?",
+    "type": "HTML"
+  },
+  {
+    "content": "How do you Create Nested Web Pages in HTML?",
+    "type": "HTML"
+  },
+  {
+    "content": "Differentiate Between Ordered List and Unordered List",
+    "type": "HTML"
+  },
+  {
+    "content": "What is the best way to include CSS Styling in HTML?",
+    "type": "CSS"
+  },
+  {
+    "content": "Mention the different types of CSS Selectors",
+    "type": "CSS"
+  },
+  {
+    "content": "What are Sass, Less, and Stylus?",
+    "type": "CSS"
+  },
+  {
+    "content": "Explain Box Sizing Property",
+    "type": "CSS"
+  },
+  {
+    "content": "What are the different ways to hide an Element using CSS?",
+    "type": "CSS"
+  },
+  {
+    "content": "What does ‘Important’ in CSS mean?",
+    "type": "CSS"
+  },
+  {
+    "content": "What are CSS Sprites?",
+    "type": "CSS"
+  },
+  {
+    "content": "Which Property is used to Underline, Strikethrough, and Overline Text?",
+    "type": "CSS"
+  },
+  {
+    "content": "What are the various Data Types in JavaScript?",
+    "type": "JavaScript"
+  },
+  {
+    "content": "What is Callback in JavaScript?",
+    "type": "JavaScript"
+  },
+  {
+    "content": "What’s the difference between Function Declaration and Function Expression?",
+    "type": "JavaScript"
+  },
+  {
+    "content": "What do you understand about Cookies in JavaScript?",
+    "type": "JavaScript"
+  },
+  {
+    "content": "What are Closures in JavaScript?",
+    "type": "JavaScript"
+  },
+  {
+    "content": "What are Imports and Exports in JavaScript?",
+    "type": "JavaScript"
+  },
+  {
+    "content": "What is the difference between Undefined, Undeclared, and Null in JavaScript?",
+    "type": "JavaScript"
+  },
+  {
+    "content": "What is the best way to remove Duplicates from a JavaScript Array?",
+    "type": "JavaScript"
+  },
+  {
+    "content": "What Is JSX?",
+    "type": "React"
+  },
+  {
+    "content": "What is Virtual DOM?",
+    "type": "React"
+  },
+  {
+    "content": "What are React Extensions? Name a few of them.",
+    "type": "React"
+  },
+  {
+    "content": "What is an Event in React? How do you create one?",
+    "type": "React"
+  },
+  {
+    "content": "What are Components in ReactJS?",
+    "type": "React"
+  },
+  {
+    "content": "What is a State in React? How do you implement it?",
+    "type": "React"
+  },
+  {
+    "content": "What is a Higher Order and Pure Components in React?",
+    "type": "React"
+  },
+  {
+    "content": "How do you Implement React Routing?",
+    "type": "React"
+  },
+  {
+    "content": "If there was one obstacle or issue that you can foresee that might prevent you from hitting a deadline, what would it be?",
+    "type": "Behavioral"
+  },
+  {
+    "content": "What was the biggest takeaway from your current job that you’ll carry with you throughout your career?",
+    "type": "Behavioral"
+  },
+  {
+    "content": "Tell us about how you’ve dealt with unexpected changes to deadlines or project scope.",
+    "type": "Behavioral"
+  },
+  {
+    "content": "Tell me about a time when you solved a conflict at work.",
+    "type": "Behavioral"
+  },
+  {
+    "content": "Describe the project that you had the most trouble with. What would you have done differently?",
+    "type": "Behavioral"
+  },
+  {
+    "content": "How do you defend your judgement to team members and stakeholders?",
+    "type": "Behavioral"
+  },
+  {
+    "content": "Which of the company values/principles is your greatest strength?",
+    "type": "Behavioral"
+  },
+  {
+    "content": "Talk about a time where you had to make a decision in a lot of ambiguity",
+    "type": "Behavioral"
+  },
+  {
+    "content": "Tell me about a time you went beyond what was expected.",
+    "type": "Behavioral"
+  },
+  {
+    "content": "Give examples of situations where you have shown effectiveness, empathy, adaptability, & humbleness.",
+    "type": "Behavioral"
+  },
+  {
+    "content": "How would you handle a situation in which you were getting a lot of negative feedback in the middle of a presentation?",
+    "type": "Behavioral"
+  },
+  {
+    "content": "If you know there are 2 improvements that need to be made, but can only make 1, how would you prioritize?",
+    "type": "Behavioral"
+  },
+  {
+    "content": "Talk about a time you failed and how you handled it.",
+    "type": "Behavioral"
+  },
+  {
+    "content": "How do you keep your team engaged?",
+    "type": "Behavioral"
+  },
+  {
+    "content": "Give an example of how you set goals and achieve them",
+    "type": "Behavioral"
+  },
+  {
+    "content": "How do you come up with ideas?",
+    "type": "Behavioral"
+  }
+]
