@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 import regeneratorRuntime from 'regenerator-runtime';
-import sampleData from '../../../db/sample.json';
 
 export default class Question extends Component {
   constructor(props) {
@@ -17,13 +16,10 @@ export default class Question extends Component {
     this.handleInsert = this.handleInsert.bind(this);
     this.handleSelect = this.handleSelect.bind(this);
     this.selectType = this.selectType.bind(this);
-    this.sampleQuestion = this.sampleQuestion.bind(this);
-    this.addSampleQuestion = this.addSampleQuestion.bind(this);
   }
 
   componentDidMount() {
-    // this.getAll();
-    this.sampleQuestion();
+    this.getAll();
   }
 
   getAll() {
@@ -72,22 +68,7 @@ export default class Question extends Component {
   }
 
   selectType(e) {
-    this.setState({ type: e.target.value }, () => this.sampleQuestion());
-  }
-
-  sampleQuestion() {
-    if (!this.state.type || this.state.type === 'Type') {
-      this.setState({questions: sampleData})
-    } else {
-      const filterQuestion = sampleData.filter(question => question.type === this.state.type);
-      this.setState({questions: filterQuestion})
-    }
-  }
-
-  addSampleQuestion(e) {
-    e.preventDefault();
-    const data = {content: this.state.content, type: this.state.type};
-    this.setState(prevState => ({questions: [...prevState.questions, data]}));
+    this.setState({ type: e.target.value }, () => this.getAllByType());
   }
 
   render() {
@@ -118,7 +99,7 @@ export default class Question extends Component {
             <option>React</option>
             <option>Behavioral</option>
           </select>
-          <button onClick={this.addSampleQuestion} className='submit'>Submit</button>
+          <button onClick={this.addQuestion} className='submit'>Submit</button>
         </div>
       </div>
     )

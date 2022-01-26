@@ -12,8 +12,8 @@ export default class Video extends Component {
           <h1 className='title'>Mock Interviews</h1>
           <img className='logo_img' src={`img/logo.png`}></img>
         </div>
-        {/* <Webcam /> */}
-        <video id="video" width="720" height="560" autoPlay></video>
+        <Webcam />
+        {/* <video id="video" width="720" height="560" autoPlay></video> */}
       </div>
     )
   }
