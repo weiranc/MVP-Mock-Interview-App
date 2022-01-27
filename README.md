@@ -15,7 +15,9 @@ MVP project at Hack Reactor (completed under 48 hours)
 
 Facial expressions can really tell a lot about your frame of mind and your emotions.
 
-![Speech_demo](./readMe/demo.mov)
+![Speech_demo1](https://user-images.githubusercontent.com/91348196/151310858-b892c315-e0ba-42a6-90e0-417f12141cc5.mov)
+
+![Speech_demo2](https://user-images.githubusercontent.com/91348196/151311167-a3c896f0-a4b2-44ad-a426-de3a074be300.mov)
 
 Pick the question and start practicing!
 
