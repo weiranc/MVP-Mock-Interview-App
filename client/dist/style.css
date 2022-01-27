@@ -66,6 +66,7 @@ canvas {
 .output-display {
   background-color: #ccd5ae;
   height: 200px;
+  width: 810px;
 }
 
 .fas, .fa {

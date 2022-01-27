@@ -1,4 +1,5 @@
 # MVP-Mock-Interview-App
+MVP project at Hack Reactor (completed under 48 hours)
 
 ## Getting Started
 1. Run `npm install` to install the project dependencies
@@ -10,7 +11,12 @@
 ## Component Details
 
 ![Overview_Screenshot](./readMe/demo.png)
+
 Facial expressions can really tell a lot about your frame of mind and your emotions.
+
+![Speech_demo](./readMe/demo.mov)
+
+Pick the question and start practicing!
 
 ## Materials/References:
 
