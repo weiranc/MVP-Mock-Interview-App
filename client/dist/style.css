@@ -11,13 +11,12 @@ body {
 canvas {
   position: absolute;
   top: 70px;
-  left: 25%;
+  justify-content: center;
 }
 
 #video {
   align-items: center;
   justify-content: center;
-  /* color: red; */
 }
 
 .logo {
@@ -34,12 +33,17 @@ canvas {
   padding-left: 30%;
 }
 
+.app-container {
+  font-family: Helvetica;
+}
+
 .main-container {
   margin-top: 10px;
 }
 
 .fa-microphone {
   color: #14A76C;
+  padding-right: 10px;
 }
 
 .fa-microphone:hover {
@@ -48,6 +52,7 @@ canvas {
 
 .fa-file-audio {
   color: #FF652F;
+  padding-right: 10px;
 }
 
 .fa-file-audio:hover {

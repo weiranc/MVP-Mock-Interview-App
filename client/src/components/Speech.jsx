@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Container } from 'reactstrap';
 import { getTokenOrRefresh } from './Token.jsx';
 import { ResultReason, SpeechConfig, AudioConfig, SpeechRecognizer} from 'microsoft-cognitiveservices-speech-sdk';
-import regeneratorRuntime from "regenerator-runtime";
+import regeneratorRuntime from 'regenerator-runtime';
 
 export default class Speech extends Component {
     constructor(props) {
@@ -10,15 +10,6 @@ export default class Speech extends Component {
         this.state = {
             displayText: 'INITIALIZED: ready to test speech...'
         }
-    }
-
-    async componentDidMount() {
-        const tokenRes = await getTokenOrRefresh();
-        // if (tokenRes.authToken === null) {
-        //     this.setState({
-        //         displayText: 'FATAL_ERROR: ' + tokenRes.error
-        //     });
-        // }
     }
 
     async sttFromMic() {
@@ -49,7 +40,6 @@ export default class Speech extends Component {
 
     async fileChange(event) {
         const audioFile = event.target.files[0];
-        // console.log(audioFile);
         const fileInfo = audioFile.name + ` size=${audioFile.size} bytes `;
 
         this.setState({
@@ -79,24 +69,24 @@ export default class Speech extends Component {
 
     render() {
         return (
-            <Container className="app-container">
-                <div className="row main-container">
-                    <div className="col-6">
-                        <i className="fas fa-microphone fa-lg mr-2" onClick={() => this.sttFromMic()}></i>
+            <Container className='app-container'>
+                <div className='row main-container'>
+                    <div className='col-6'>
+                        <i className='fas fa-microphone fa-lg mr-2' onClick={() => this.sttFromMic()}></i>
                         Convert speech to text from your mic.
 
-                        <div className="mt-2">
-                            <label htmlFor="audio-file"><i className="fas fa-file-audio fa-lg mr-2"></i></label>
+                        <div className='mt-2'>
+                            <label htmlFor='audio-file'><i className='fas fa-file-audio fa-lg mr-2'></i></label>
                             <input
-                                type="file"
-                                id="audio-file"
+                                type='file'
+                                id='audio-file'
                                 onChange={(e) => this.fileChange(e)}
-                                style={{display: "none"}}
+                                style={{display: 'none'}}
                             />
                             Convert speech to text from an audio file.
                         </div>
                     </div>
-                    <div className="col-6 output-display rounded">
+                    <div className='col-6 output-display rounded'>
                         <code>{this.state.displayText}</code>
                     </div>
                 </div>
