@@ -1,6 +1,10 @@
 body {
   padding: 0;
-  background-color: bisque;
+  /* background-color: bisque; */
+  background-image: url('img/background.jpg');
+  background-size: 1500px 1000px;
+  background-repeat: no-repeat;
+  background-position: center;
   width: 100vw;
   height: 100vh;
   display: flex;
@@ -30,7 +34,7 @@ canvas {
 .logo_img {
   width: 200px;
   height: 100px;
-  padding-left: 30%;
+  padding-left: 40%;
 }
 
 .app-container {
@@ -87,5 +91,27 @@ canvas {
 }
 
 .type, .submit {
-  margin-left: 2px;
+  margin-left: 3px;
+}
+
+.submit {
+  display: inline-block;
+  font-size: 18px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px #999;
+}
+
+.submit:hover {background-color: #3e8e41}
+
+.submit:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }
